@@ -28,21 +28,25 @@ namespace Assignment_Session03
             {
                 decimal sumOne = data.numberOne + data.numberTwo;
                 Console.WriteLine("data.numberOne + data.numberTwo = " + sumOne);
+               
             }
             else if (operations == "-")
             {
                 decimal SubtractionOne = data.numberOne - data.numberTwo;
                 Console.WriteLine("data.numberOne - data.numberTwo = " + SubtractionOne);
+                
             }
             else if (operations == "*")
             {
                 decimal MultiplicationOne = data.numberOne * data.numberTwo;
                 Console.WriteLine("data.numberOne * data.numberTwo = " + MultiplicationOne);
+               
             }
             else if (operations == "/")
             {
                 decimal DividedByOne = data.numberOne / data.numberTwo;
                 Console.WriteLine("data.numberOne / data.numberTwo = " + DividedByOne);
+              
             }
             else
             {
@@ -190,13 +194,15 @@ namespace Assignment_Session03
             Console.WriteLine("\n -- Result -- " + resultOne);
 
 
+            string result1 = $"{data.First} {data.Second}";
+
+            Console.WriteLine("\n -- Result -- " + result1);
+
+
+
             string result2 = $"{data.First} {data.Second}";
 
             Console.WriteLine("\n -- Result -- " + result2);
-
-
-
-
 
             #endregion
 

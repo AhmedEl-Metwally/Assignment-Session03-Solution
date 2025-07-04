@@ -189,6 +189,15 @@ namespace Assignment_Session03
 
             Console.WriteLine("\n -- Result -- " + resultOne);
 
+
+            string resultThird = $"{data.First} {data.Second}";
+
+            Console.WriteLine("\n -- Result -- " + resultThird);
+
+
+
+
+
             #endregion
 
 

@@ -190,9 +190,9 @@ namespace Assignment_Session03
             Console.WriteLine("\n -- Result -- " + resultOne);
 
 
-            string resultThird = $"{data.First} {data.Second}";
+            string result2 = $"{data.First} {data.Second}";
 
-            Console.WriteLine("\n -- Result -- " + resultThird);
+            Console.WriteLine("\n -- Result -- " + result2);
 
 
 
